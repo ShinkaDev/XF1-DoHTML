@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon addon_id="shinka_dohtml" title="[Shinka] DoHTML" version_string="1.0.0" version_id="1" url="" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+  <admin_navigation/>
+  <admin_permissions/>
+  <admin_style_properties/>
+  <admin_templates/>
+  <admin_template_modifications/>
+  <code_events/>
+  <code_event_listeners/>
+  <cron/>
+  <email_templates/>
+  <email_template_modifications/>
+  <optiongroups/>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
+  <phrases>
+    <phrase title="custom_bb_code_dohtml_desc" version_id="1" version_string="1.0.0"><![CDATA[Renders HTML tags.]]></phrase>
+    <phrase title="custom_bb_code_dohtml_title" global_cache="1" version_id="1" version_string="1.0.0"><![CDATA[DoHTML]]></phrase>
+  </phrases>
+  <route_prefixes/>
+  <style_properties/>
+  <templates/>
+  <public_template_modifications/>
+  <bb_code_media_sites/>
+  <bb_codes>
+    <bb_code bb_code_id="dohtml" bb_code_mode="callback" has_option="no" callback_class="Shinka_DoHTML_BbCode_DoHTML" callback_method="render" option_regex="" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="1" editor_icon_url="" sprite_mode="0" active="1">
+      <replace_html><![CDATA[]]></replace_html>
+      <replace_html_email><![CDATA[]]></replace_html_email>
+      <replace_text><![CDATA[]]></replace_text>
+      <example><![CDATA[[doHTML]<b>This is bold</b>[/doHTML]]]></example>
+    </bb_code>
+  </bb_codes>
+</addon>
